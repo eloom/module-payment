@@ -1,6 +1,4 @@
-# Payment Core para Magento 2
-
-## Licença
+# Módulo Core de Pagamentos para Magento 2
 
 ## Links
 
