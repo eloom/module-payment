@@ -10,7 +10,7 @@
 # -- D
 "Discount first installment","Desconto à vista"
 "Deadline In days","Prazo, em dias corridos, que o sistema cancelará as compras.<br/>O sistema irá somar este prazo com o prazo de Validade do Boleto."
-"Eloom - Transparent Payment","élOOm - Pagamento Transparente"
+"elOOm - Transparent Payment","élOOm - Pagamento Transparente"
 
 # -- E
 "Expiration Days","Validade"
