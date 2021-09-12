@@ -3,10 +3,10 @@
 * 
 * Payment Core para Magento 2
 * 
-* @category     Ã©lOOm
+* @category     elOOm
 * @package      Modulo Payment Core
 * @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.0
+* @version      1.0.1
 * @license      https://opensource.org/licenses/OSL-3.0
 * @license      https://opensource.org/licenses/AFL-3.0
 *
@@ -29,6 +29,7 @@ class PaymentMethods extends AbstractMultiton {
 		new static('eloom_payments_payu_baloto', 'Eloom_PayU');
 		new static('eloom_payments_payu_efecty', 'Eloom_PayU');
 		new static('eloom_payments_payu_pagoefectivo', 'Eloom_PayU');
+		new static('eloom_payments_payu_pse', 'Eloom_PayU');
 		new static('eloom_payments_payu_oxxo', 'Eloom_PayU');
 		new static('eloom_payments_payu_seveneleven', 'Eloom_PayU');
 		new static('eloom_payments_payu_multicaja', 'Eloom_PayU');
