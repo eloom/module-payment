@@ -8,13 +8,12 @@
 "Cancel orders automatically?","¿Sobrescribir los plazos de cancelación automática?"
 
 # -- D
-"Discount first installment","Descuento de efectivo"
 "Deadline In days","Plazo, en días naturales, que el sistema cancelará compras.<br/>El sistema agregará este término al término de validez del boleto."
-"elOOm - Transparent Payment","élOOm - Pago Transparente"
 
 # -- E
 "Expiration Days","Duracion"
 "Environment","Ambiente"
+"elOOm - Transparent Payment","élOOm - Pago Transparente"
 
 # -- F
 "Flat icon","Icono plano"

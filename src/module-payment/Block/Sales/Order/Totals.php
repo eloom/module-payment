@@ -51,7 +51,7 @@ class Totals extends \Magento\Framework\View\Element\Template {
 					'strong' => false,
 					'value' => $amount,
 					'base_value' => $this->source->getPayuBaseDiscountAmount(),
-					'label' => __('Discount first installment'),
+					'label' => __('Discount'),
 				]
 			);
 
