@@ -6,7 +6,7 @@
 * @category     elOOm
 * @package      Modulo Payment Core
 * @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.1
+* @version      1.0.2
 * @license      https://opensource.org/licenses/OSL-3.0
 * @license      https://opensource.org/licenses/AFL-3.0
 *
@@ -19,27 +19,19 @@ use Magento\Checkout\Model\ConfigProviderInterface;
 use Magento\Framework\View\Asset\Repository;
 
 class ConfigProvider implements ConfigProviderInterface {
-	
+
 	const CODE = 'eloom_payments';
-	
+
 	protected $assetRepo;
-	
+
 	public function __construct(Repository $assetRepo) {
 		$this->assetRepo = $assetRepo;
 	}
-	
+
 	public function getConfig() {
 		return [
 			'payment' => [
-				self::CODE => [
-					'icons' => [
-						'visa' => [
-							'height' => 30,
-							'width' => 46,
-							'url' => $this->assetRepo->getUrl("Eloom_Payment::images/cc/visa.png")
-						]
-					],
-				],
+				self::CODE => []
 			]
 		];
 	}

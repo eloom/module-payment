@@ -6,7 +6,7 @@
 * @category     elOOm
 * @package      Modulo Payment Core
 * @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.1
+* @version      1.0.2
 * @license      https://opensource.org/licenses/OSL-3.0
 * @license      https://opensource.org/licenses/AFL-3.0
 *
@@ -26,6 +26,7 @@ class PaymentMethods extends AbstractMultiton {
 	protected static function initializeMembers() {
 		new static('eloom_payments_payu_cc', 'Eloom_PayU');
 		new static('eloom_payments_payu_boleto', 'Eloom_PayU');
+		new static('eloom_payments_payu_pix', 'Eloom_PayU');
 		new static('eloom_payments_payu_baloto', 'Eloom_PayU');
 		new static('eloom_payments_payu_efecty', 'Eloom_PayU');
 		new static('eloom_payments_payu_pagoefectivo', 'Eloom_PayU');
